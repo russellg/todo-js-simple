@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="todo.css">
+  <style>
+  </style>
+  <title>todo.js</title>
+</head>
+
+<body onload="fetchTodo()">
+
+  <div class="container">
+    <h1>todo</h1>
+    <form id="todoForm">
+      <input type="text" placeholder="Add new item..." id="todoItem">
+      <div id="todoList"></div>
+      <a class=" waves-effect waves-light btn-small red-lighten-5" onclick="deleteTodo();">Delete</a>
+      <!-- <a href="#" ><i class="small material-icons">delete_item</i>Start new todo list (delete current)</a> -->
+    </form>
+
+  </div>
+
+
+  <script src="todo.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+.medium {
+  color: rgb(151, 45, 45);
+}
+
+[type="checkbox"] + span {
+  font-size: 1.3rem !important;
+}
+
+input:checked ~ #main {
+  text-decoration: line-through;
+}
+
+a.btn-small {
+  background-color: rgb(151, 45, 45);
+}
+
+a:hover.btn-small {
+  background-color: rgb(226, 95, 95);
+}
